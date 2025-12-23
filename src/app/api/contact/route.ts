@@ -40,8 +40,8 @@ export async function POST(req: NextRequest) {
 
     const resend = new Resend(apiKey);
 
-    const subjectOwner = `Nouveau message de ${name}`;
-    const subjectSender = "Merci pour votre message";
+    const subjectOwner = `New lead from your website from${name}`;
+    const subjectSender = "Thank you for your message";
 
     const fromEmail =
       process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev";
