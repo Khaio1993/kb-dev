@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Khalil Bencherifa
 
-## Getting Started
+Ce dépôt contient mon site portfolio développé avec **Next.js** (App Router), conçu pour présenter mes services de **développement d'MVPs SaaS orientés IA**, mes projets, mon process et permettre aux fondateurs de réserver un appel.
 
-First, run the development server:
+## Contenu principal du site
+
+- **Home / Landing Page**  
+  Hero orienté résultats : *"I build AI-powered MVPs and SaaS products fast, scalable, production-ready."*  
+  Ciblé pour fondateurs, coachs, agences et startups.
+
+- **Services**  
+  - MVP complets (Next.js, Firebase, Tailwind, intégrations IA)  
+  - Assistants IA & systèmes d'automatisation (RAG, embeddings, intégrations API, agents internes)  
+  - Mise en place de serveurs **MCP** et outils développeur (orchestration d'API, architectures scalables, event-driven, etc.).
+
+- **Projects / Case Studies**  
+  Exemples de dashboards SaaS, plateformes d'automatisation et marketplace migrée depuis du no-code, avec focus sur résultats business (temps gagné, performance, scalabilité).
+
+- **Testimonials**  
+  Avis clients mettant en avant : vitesse d'exécution, fiabilité, intégration IA réussie, MVP prêts au revenu.
+
+- **Process**  
+  4 étapes claires : Discovery call → Architecture & roadmap → Build & weekly demos → Delivery & launch.
+
+La structure détaillée des pages est décrite dans `website-plan.md`.
+
+## SEO & stratégie de contenu
+
+Le fichier `website-seo.md` décrit :
+
+- **Titres, meta descriptions et H1** pour les pages Home, Services, Projects, Testimonials et Contact.  
+- **Mots-clés ciblés** : AI MVP development, Next.js developer, SaaS builder, MCP server, AI automation, etc.  
+- **Stratégie de blog** (RAG, MCP, validation de SaaS, automatisation IA pour SMBs...).  
+- **Recommandations techniques SEO** : performances (Vercel), sitemap, robots, mobile-first, structure d'URL propre, schémas JSON-LD.
+
+## Stack technique
+
+- **Framework** : Next.js (App Router)  
+- **Langage** : TypeScript  
+- **Styling** : CSS / Tailwind (ou équivalent utilitaire si ajouté)  
+- **Déploiement recommandé** : Vercel
+
+## Scripts de développement
+
+Développement local :
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# puis ouvrir http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Déploiement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Le déploiement recommandé se fait sur Vercel :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Connecter le dépôt GitHub `kb-dev` à Vercel.  
+2. Configurer les variables d'environnement si nécessaire.  
+3. Déployer à partir de la branche `main`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pour plus de détails sur la structure de contenu, voir :
+- `website-plan.md`
+- `website-seo.md`
