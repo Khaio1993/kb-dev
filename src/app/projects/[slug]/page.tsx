@@ -20,9 +20,33 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
+  const firstScreenshot = project.screenshots[0] || '/Thumbnail.png';
+
   return {
     title: `${project.title} - Khalil Ben Cherifa`,
     description: project.description,
+    openGraph: {
+      title: project.title,
+      description: project.description,
+      url: `https://khalilbencherifa.com/projects/${project.slug}`,
+      siteName: 'Khalil Ben Cherifa Portfolio',
+      images: [
+        {
+          url: firstScreenshot,
+          width: 1200,
+          height: 630,
+          alt: project.title,
+        },
+      ],
+      locale: 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: project.title,
+      description: project.description,
+      images: [firstScreenshot],
+    },
   };
 }
 

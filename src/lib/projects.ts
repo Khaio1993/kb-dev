@@ -103,6 +103,28 @@ export const projects: Project[] = [
     ],
     liveUrl: 'https://playpadel-navy.vercel.app',
     featured: true
+  },
+  {
+    id: '5',
+    slug: 'izigos',
+    title: 'Izigos - Social Network for Truckers',
+    subtitle: 'LIVE ON iOS & ANDROID IN US MARKET.',
+    description: 'Comprehensive mobile app combining social networking, delivery tracking, and performance analytics for truck drivers and carriers across the United States.',
+    story: 'The trucking industry in the US is massive, yet truck drivers and carriers lacked a dedicated platform to connect, track their work, and benchmark their performance. Drivers spend countless hours on the road, often isolated, while carriers struggle to measure and improve operational efficiency. Izigos was created to revolutionize the trucking industry—providing drivers with a social community and professional tools while giving carriers powerful analytics to optimize their operations and recognize top performers.',
+    challenge: 'Building a comprehensive platform that serves multiple user types (drivers, carriers, facilities) with distinct needs was complex. The app needed real-time delivery tracking that works reliably across the entire US, even in areas with poor connectivity. Implementing a fair and meaningful KPI-based leaderboard system required careful consideration of various performance metrics across different types of hauling operations. The social features needed to foster genuine community while the time tracking had to be precise for compliance and payroll purposes. Additionally, ensuring the app performed smoothly on both iOS and Android while handling real-time updates for messaging, feeds, and live tracking presented significant technical challenges.',
+    solution: 'Developed a cross-platform mobile application using React Native for consistent performance on both iOS and Android. Built with Expo for streamlined development and deployment, enabling faster iterations and updates. Leveraged Firebase for real-time database capabilities, powering the live delivery tracking, instant messaging system, and real-time feed updates. Implemented a sophisticated time tracking system that logs driver hours, delivery times, and route information with high precision. Created an engaging social feed with likes, comments, and driver interactions to build community. Developed a comprehensive leaderboard system tracking multiple KPIs for both carriers and facilities, including on-time delivery rates, efficiency metrics, and safety records. Integrated push notifications to keep drivers informed of important updates, new messages, and milestone achievements.',
+    impact: 'Izigos is successfully serving the US trucking market on both iOS and Android platforms, connecting thousands of truck drivers and carriers nationwide. The social features have created a vibrant community where drivers share experiences, tips, and support each other on the road, reducing the isolation that comes with long-haul trucking. The delivery tracking system provides real-time visibility for both drivers and dispatchers, improving coordination and reducing delays. The KPI-based leaderboards have introduced healthy competition and recognition, motivating drivers to improve performance while helping carriers identify and reward their top performers. The time tracking features ensure accurate record-keeping for compliance and payroll. Carriers using Izigos report improved operational efficiency, better driver retention, and enhanced ability to benchmark performance across their fleet.',
+    technologies: ['React Native', 'Firebase', 'Expo'],
+    screenshots: [
+      '/C-Izigos1.png',
+      '/C-Izigos2.png',
+      '/C-Izigos3.png',
+      '/C-Izigos4.png',
+      '/C-Izigos5.png',
+      '/C-Izigos6.png',
+      '/C-Izigos7.png'
+    ],
+    featured: true
   }
 ];
 

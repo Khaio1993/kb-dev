@@ -11,7 +11,9 @@ import {
   SiAnthropic,
   SiMeta,
   SiCapacitor,
-  SiVercel
+  SiVercel,
+  SiReact,
+  SiExpo
 } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
 
@@ -26,6 +28,8 @@ const techIconMap: Record<string, IconType> = {
   'Capacitor': SiCapacitor,
   'Vercel': SiVercel,
   'Resend': MdEmail,
+  'React Native': SiReact,
+  'Expo': SiExpo,
   'Node.js': SiNodedotjs,
   'Python': SiPython,
   'Supabase': SiSupabase,
